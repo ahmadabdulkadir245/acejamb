@@ -6,7 +6,7 @@ import Header from "../components/Header";
 import Main from "../components/Main";
 export default function Component() {
   const { data: session } = useSession();
-  if (session) {
+  if (!session) {
     return (
       <div className='lg:max-w-screen-3xl  m-auto  iceland'>
         <Head>

@@ -34,20 +34,18 @@ function Quiz({ questions }) {
     setSec(59);
   }
 
-  if (!ansButton) {
-    useEffect(() => {
-      const interval = setInterval(tick, 1000);
-      if (min === -1) {
-        setSubmit(true);
-        setMin(100);
-        setStopTime(true);
-        clearInterval(interval);
-      }
-      return () => {
-        clearInterval(interval);
-      };
-    }, [sec]);
-  }
+  useEffect(() => {
+    const interval = setInterval(tick, 1000);
+    if (min === -1) {
+      setSubmit(true);
+      setMin(100);
+      setStopTime(true);
+      clearInterval(interval);
+    }
+    return () => {
+      clearInterval(interval);
+    };
+  }, [sec]);
 
   if (questionNumber > questions.length - 1) {
     setQuestionNumber(0);
