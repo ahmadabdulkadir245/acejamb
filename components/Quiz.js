@@ -19,7 +19,7 @@ function Quiz({ questions }) {
   const [confirmSubmit, setConfirmSubmit] = useState(false);
   const [stopTime, setStopTime] = useState(false);
 
-  const [min, setMin] = useState(3);
+  const [min, setMin] = useState(19);
   const [sec, setSec] = useState(59);
   const [ansButton, setAnsButton] = useState(false);
   const [correctAnswer, setCorrectAnswer] = useState(false);
@@ -33,7 +33,6 @@ function Quiz({ questions }) {
     setMin(min - 1);
     setSec(59);
   }
-
   useEffect(() => {
     const interval = setInterval(tick, 1000);
     if (min === -1) {
@@ -354,11 +353,15 @@ function Quiz({ questions }) {
         <div className='max-w-5xl min-h-screen bg-[#08878b] iceland p-3 grid gap-2 grid-rows-10 text-white relative'>
           <h1 className='text-white text-4xl md:text-6xl font-bold flex justify-center items-center row-span-1 '>
             CHAPTER{"  "}
-            {questions.map((question) => (
-              <p className='relative left-2' key={question.id}>
-                <p> {question.chapterNumber}</p>
-              </p>
-            ))}
+            {questions.map((question) => {
+              if (question.id === questionNumber) {
+                return (
+                  <p className='relative left-2' key={question.id}>
+                    <p> {question.chapterNumber}</p>
+                  </p>
+                );
+              }
+            })}
           </h1>
 
           <Description

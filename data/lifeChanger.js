@@ -1,13 +1,14 @@
 export const chapterOne = [
-  {
-    chapterNumber: "ONE",
-  },
+  // {
+  //   chapterNumber: "ONE",
+  // },
   {
     id: 0,
     level: 1,
     question: "How Old is Bint?",
     option: [4, 3, 5, 6],
     answer: 2,
+    chapterNumber: "ONE",
   },
   {
     id: 1,
@@ -20,6 +21,7 @@ export const chapterOne = [
       "Her three sisters",
     ],
     answer: 1,
+    chapterNumber: "ONE",
   },
   {
     id: 2,
@@ -28,6 +30,7 @@ export const chapterOne = [
       "Which language is second to English in the ranking of International Languages?",
     option: ["Chinese", "Arabic", "French", "Hausa"],
     answer: 2,
+    chapterNumber: "ONE",
   },
   {
     id: 3,
@@ -36,6 +39,7 @@ export const chapterOne = [
       "What subject did the teacher who believed he knew a little bit about every subject under the sun taught?",
     option: ["Social Studies", "French", "English", "Maths"],
     answer: 0,
+    chapterNumber: "ONE",
   },
   {
     id: 4,
@@ -43,6 +47,7 @@ export const chapterOne = [
     question: "What does Good morning mean in french'?",
     option: ["C'est tres bien", "Bonjour", "Aure vour", "Goode Moner"],
     answer: 1,
+    chapterNumber: "ONE",
   },
   {
     id: 5,
@@ -51,6 +56,7 @@ export const chapterOne = [
       "Who Answered the first question the teacher asked in chapter one",
     option: ["Teemah", "Jamila", "Bint", "Omar"],
     answer: 2,
+    chapterNumber: "ONE",
   },
   {
     id: 6,
@@ -63,6 +69,7 @@ export const chapterOne = [
       "How to say Good morning in French",
     ],
     answer: 3,
+    chapterNumber: "ONE",
   },
   {
     id: 7,
@@ -75,6 +82,7 @@ export const chapterOne = [
       "what is 2 + 2 ",
     ],
     answer: 0,
+    chapterNumber: "ONE",
   },
   {
     id: 8,
@@ -87,6 +95,7 @@ export const chapterOne = [
       "the maths teacher",
     ],
     answer: 2,
+    chapterNumber: "ONE",
   },
   {
     id: 9,
@@ -99,6 +108,7 @@ export const chapterOne = [
       "her friend",
     ],
     answer: 1,
+    chapterNumber: "ONE",
   },
   {
     id: 10,
@@ -112,6 +122,7 @@ export const chapterOne = [
       "his Grandfather",
     ],
     answer: 0,
+    chapterNumber: "ONE",
   },
   {
     id: 11,
@@ -119,6 +130,7 @@ export const chapterOne = [
     question: "Who is Bint immediate elder sister?",
     option: ["Teemah", "Jamila", "Aisha", "Khadija"],
     answer: 1,
+    chapterNumber: "ONE",
   },
   {
     id: 12,
@@ -127,6 +139,7 @@ export const chapterOne = [
       "Who was referred to as the last child and consequently the darling ot the entire family?",
     option: ["Teemah", "Ummi", "Bint", "Khadija"],
     answer: 2,
+    chapterNumber: "ONE",
   },
   {
     id: 13,
@@ -134,6 +147,7 @@ export const chapterOne = [
     question: "Who is the first child and only male in the Text?",
     option: ["Umar", "Imran", "Omar", "Amar"],
     answer: 2,
+    chapterNumber: "ONE",
   },
   {
     id: 14,
@@ -142,6 +156,7 @@ export const chapterOne = [
       "___________ is a title every child in the narrators community used for their mother?",
     option: ["Mommy", "Mum", "mom", "Mama"],
     answer: 3,
+    chapterNumber: "ONE",
   },
   {
     id: 15,
@@ -149,6 +164,7 @@ export const chapterOne = [
     question: "All the narrators children called her mummy except?",
     option: ["Bint", "Omar", "jamila", "Bint"],
     answer: 1,
+    chapterNumber: "ONE",
   },
   {
     id: 16,
@@ -156,6 +172,7 @@ export const chapterOne = [
     question: "Which of the following translate to my mother in Arabic?",
     option: ["Ummah", "Ammi", "Ummitah", "Ummi"],
     answer: 3,
+    chapterNumber: "ONE",
   },
   {
     id: 17,
@@ -163,6 +180,7 @@ export const chapterOne = [
     question: "Who in the text was named after their paternal Grandmother?",
     option: ["Bint", "The narrator", "Teemah", "Jamila"],
     answer: 1,
+    chapterNumber: "ONE",
   },
   {
     id: 18,
@@ -170,6 +188,7 @@ export const chapterOne = [
     question: "What is the narrators name at home?",
     option: ["Ummi", "mummy", "mom", "mum"],
     answer: 0,
+    chapterNumber: "ONE",
   },
   {
     id: 19,
@@ -182,6 +201,7 @@ export const chapterOne = [
       "The social studies teacher",
     ],
     answer: 3,
+    chapterNumber: "ONE",
   },
   {
     id: 20,
@@ -189,6 +209,7 @@ export const chapterOne = [
     question: "What is the narrators occupation?",
     option: ["Lawyer", "Teacher", "Accountant", "Poet"],
     answer: 1,
+    chapterNumber: "ONE",
   },
   {
     id: 21,
@@ -201,6 +222,7 @@ export const chapterOne = [
       "Good bye until we meet again",
     ],
     answer: 3,
+    chapterNumber: "ONE",
   },
   {
     id: 22,
@@ -208,6 +230,7 @@ export const chapterOne = [
     question: "Is Mallam Salihu humble enough to accept what he does not know?",
     option: ["Yes", "No", "Maybe", "None of the above"],
     answer: 0,
+    chapterNumber: "ONE",
   },
   {
     id: 23,
@@ -216,6 +239,7 @@ export const chapterOne = [
       'Complete the statement "Another teacher would frown his face and tell you au revoir mean _____________ whether you like it or not"?',
     option: ["Good bye", "Hello", "Welcome", "Good night"],
     answer: 2,
+    chapterNumber: "ONE",
   },
   {
     id: 24,
@@ -223,6 +247,7 @@ export const chapterOne = [
     question: "Who is the narrators second child?",
     option: ["Teemah", "Jamila", "Bint", "Khadija"],
     answer: 0,
+    chapterNumber: "ONE",
   },
   {
     id: 25,
@@ -230,6 +255,7 @@ export const chapterOne = [
     question: "How old is Omar?",
     option: [17, 19, "In his early twenties", 18],
     answer: 3,
+    chapterNumber: "ONE",
   },
   {
     id: 26,
@@ -243,6 +269,7 @@ export const chapterOne = [
       "Kaftan",
     ],
     answer: 2,
+    chapterNumber: "ONE",
   },
   {
     id: 27,
@@ -255,6 +282,7 @@ export const chapterOne = [
       "Joint Admission and matriculation Boards",
     ],
     answer: 2,
+    chapterNumber: "ONE",
   },
   {
     id: 28,
@@ -262,6 +290,7 @@ export const chapterOne = [
     question: "Which University did Omar get Admitted into?",
     option: ["BUK", "ABU Zaria", "UNI Ibadan", "Kasu"],
     answer: 1,
+    chapterNumber: "ONE",
   },
   {
     id: 29,
@@ -269,6 +298,7 @@ export const chapterOne = [
     question: "Which campus did Omar get Admitted to?",
     option: ["Kangaru Campus", "Samaru Campus", "Konga Campus", "Kongo Campus"],
     answer: 3,
+    chapterNumber: "ONE",
   },
   {
     id: 30,
@@ -276,6 +306,7 @@ export const chapterOne = [
     question: "Which course did Omar's father study in the university?",
     option: ["Law", "Literature", "Accounting", "Business Administration"],
     answer: 2,
+    chapterNumber: "ONE",
   },
   {
     id: 31,
@@ -283,6 +314,7 @@ export const chapterOne = [
     question: "Which Course did Omar's father want to study?",
     option: ["Law", "Literature", "Accounting", "Business Administration"],
     answer: 0,
+    chapterNumber: "ONE",
   },
   {
     id: 32,
@@ -295,6 +327,7 @@ export const chapterOne = [
       "None of the Above",
     ],
     answer: 3,
+    chapterNumber: "ONE",
   },
   {
     id: 33,
@@ -308,6 +341,7 @@ export const chapterOne = [
       "Mum, Dad and Jamila",
     ],
     answer: 2,
+    chapterNumber: "ONE",
   },
   {
     id: 34,
@@ -320,6 +354,7 @@ export const chapterOne = [
       "Five O'clock at the evening",
     ],
     answer: 3,
+    chapterNumber: "ONE",
   },
   {
     id: 35,
@@ -328,6 +363,7 @@ export const chapterOne = [
       'Who was referred to as "the only bank in this community" in the text?',
     option: ["Omar", "Bint's father", "Mallam Salihu", "The narrator"],
     answer: 1,
+    chapterNumber: "ONE",
   },
   {
     id: 36,
@@ -335,6 +371,7 @@ export const chapterOne = [
     question: 'Who was referred to as "Bladder Mouth" in the text?',
     option: ["Teemah", "Fatima", "Khadija", "Ummi"],
     answer: 0,
+    chapterNumber: "ONE",
   },
   {
     id: 37,
@@ -347,6 +384,7 @@ export const chapterOne = [
       "A smart Phone",
     ],
     answer: 3,
+    chapterNumber: "ONE",
   },
   {
     id: 38,
@@ -359,6 +397,7 @@ export const chapterOne = [
       "Lying and mischief",
     ],
     answer: 1,
+    chapterNumber: "ONE",
   },
   {
     id: 39,
@@ -366,6 +405,7 @@ export const chapterOne = [
     question: "What type of tree was at the courtyard of the narrotor's house?",
     option: ["Palm tree", "Orange tree", "Paw paw tree", "Mango tree"],
     answer: 3,
+    chapterNumber: "ONE",
   },
   {
     id: 40,
@@ -373,6 +413,7 @@ export const chapterOne = [
     question: 'Who said "I want to drink Zobo"?',
     option: ["Teemah", "Omar", "Bint", "Jamila"],
     answer: 2,
+    chapterNumber: "ONE",
   },
   {
     id: 41,
@@ -385,6 +426,7 @@ export const chapterOne = [
       "The day she gets in trouble and her only brother would be called upon to defend her",
     ],
     answer: 3,
+    chapterNumber: "ONE",
   },
   {
     id: 42,
@@ -392,6 +434,7 @@ export const chapterOne = [
     question: "How many bottles of Zobo was teemah back with?",
     option: [5, 4, 7, 6],
     answer: 0,
+    chapterNumber: "ONE",
   },
   {
     id: 43,
@@ -399,6 +442,7 @@ export const chapterOne = [
     question: "Who many credits did Omar score including maths and english?",
     option: [5, 6, 7, 8],
     answer: 2,
+    chapterNumber: "ONE",
   },
   {
     id: 44,
@@ -406,6 +450,7 @@ export const chapterOne = [
     question: "What was Omar score in JAMB?",
     option: [220, 230, 240, 250],
     answer: 1,
+    chapterNumber: "ONE",
   },
   {
     id: 45,
@@ -413,6 +458,7 @@ export const chapterOne = [
     question: "How long did Omar have to wait before seeing his Jamb result?",
     option: ["2 days", "3 days ", "1 week", "2 weeks"],
     answer: 0,
+    chapterNumber: "ONE",
   },
   {
     id: 46,
@@ -425,6 +471,7 @@ export const chapterOne = [
       "Something that changes your manner",
     ],
     answer: 2,
+    chapterNumber: "ONE",
   },
   {
     id: 47,
@@ -438,6 +485,7 @@ export const chapterOne = [
       "it means he in trouble",
     ],
     answer: 1,
+    chapterNumber: "ONE",
   },
   {
     id: 48,
@@ -445,6 +493,7 @@ export const chapterOne = [
     question: "Who Advise omar to check the admission online?",
     option: ["His mum", "His Dad", "His aunt", "his Friends"],
     answer: 3,
+    chapterNumber: "ONE",
   },
 ];
 
