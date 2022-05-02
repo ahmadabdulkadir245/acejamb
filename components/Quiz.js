@@ -19,7 +19,7 @@ function Quiz({ questions }) {
   const [confirmSubmit, setConfirmSubmit] = useState(false);
   const [stopTime, setStopTime] = useState(false);
 
-  const [min, setMin] = useState(19);
+  const [min, setMin] = useState(24);
   const [sec, setSec] = useState(59);
   const [ansButton, setAnsButton] = useState(false);
   const [correctAnswer, setCorrectAnswer] = useState(false);
